@@ -43,11 +43,39 @@ h2	{ font-size: 24px; color: #333333; }
 
 .templatemo_reasonbg h2, .templatemo_blog h2 { color: #ffffff; }
 
+#about_kachido_image{
+  	width: 30%;
+  	opacity: 0.9;
+  	max-width: 100%;
+    white-space:nowrap;
+    overflow:hidden;
+    text-overflow:ellipsis;
+    -ms-text-overflow:ellipsis;
+    float: left;
+    padding-top: 100px;
+    padding-left: 20px;
+    background: #333537;
+}
+
+#about_kachido_text_outer {
+    overflow:hidden;
+    text-overflow:ellipsis;
+    -ms-text-overflow:ellipsis;
+    text-align: right;
+    
+}
+
+#about_kachido_text {
+	padding-top: 40px;
+    padding-left: 30px;
+    padding-right: 100px;
+}
+
 #about_shihan_image{
   	height: 30%;
   	width: 30%;
     max-width: 100%;
-    background:red;
+    background:white;
     white-space:nowrap;
     overflow:hidden;
     text-overflow:ellipsis;
