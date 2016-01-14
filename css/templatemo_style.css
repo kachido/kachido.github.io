@@ -43,6 +43,33 @@ h2	{ font-size: 24px; color: #333333; }
 
 .templatemo_reasonbg h2, .templatemo_blog h2 { color: #ffffff; }
 
+#about_shihan_image{
+  	height: 30%;
+  	width: 30%;
+    max-width: 100%;
+    background:red;
+    white-space:nowrap;
+    overflow:hidden;
+    text-overflow:ellipsis;
+    -ms-text-overflow:ellipsis;
+    float: left;
+}
+
+#about_shihan_text_outer {
+    background:white;
+    overflow:hidden;
+    text-overflow:ellipsis;
+    -ms-text-overflow:ellipsis;
+    text-align: right;
+    
+}
+
+#about_shihan_text {
+	padding-top: 20px;
+    padding-left: 50px;
+    padding-right: 50px;
+}
+
 img {
   	max-width: 100%;
   	height: auto;
